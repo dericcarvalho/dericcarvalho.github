@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9B6647;
+}
+
+section.conteudo-principal {
+    background-color: #feece0;
+}
+
+.horizontal_center {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem-pamonha img {
+    width: 350px;
+    height: auto;
+    margin-top: 80px;
+}
+
+.explicacao {
+    margin-right: 12%;
+}
+
+.explicacao h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #58190A;
+}
+
+.explicacao p {
+    color: #58190A;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.controle-porcoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.controle-porcoes p {
+    display: inline-block;
+}
+
+.controle-porcoes button {
+    border: none;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.controle-porcoes img {
+    width: 32px;
+    height: 32px;
+}
+
+.controle-porcoes button:hover {
+    cursor: pointer;
+}
+
+section.receita {
+    background-color: #9B6647;
+}
+
+.container-receita {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-ingredientes img,
+.lista-ingredientes h3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 40px;
+    color: #FEECE0;
+}
+
+.lista-ingredientes h3 {
+    font-size: 20px;
+}
+
+.lista-ingredientes ul {
+    padding-left: 20px;
+}
+
+.lista-ingredientes li {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.modo-preparo img,
+.modo-preparo h3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 40px;
+    color: #FEECE0;
+}
+
+.modo-preparo h3 {
+    font-size: 20px;
+}
+
+.modo-preparo li {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .horizontal_center {
+        max-width: 800px;
+        padding: 0 1%;
+    }
+
+    .imagem-pamonha img {
+        width: 200px;
+        margin-bottom: 60px;
+    }
+
+    .controle-porcoes img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .explicacao h2 {
+        font-size: 32px;
+    }
+
+    .explicacao p {
+        font-size: 16px;
+    }
+
+    .lista-ingredientes h3 {
+        font-size: 18px;
+    }
+
+    .lista-ingredientes li {
+        font-size: 14px;
+    }
+
+    .modo-preparo h3 {
+        font-size: 18px;
+    }
+
+    .modo-preparo li {
+        font-size: 14px;
+    }
+}
