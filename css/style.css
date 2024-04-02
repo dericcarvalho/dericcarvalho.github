@@ -11,7 +11,7 @@ section.conteudo-principal {
     background-color: #feece0;
 }
 
-.horizontal_center {
+.centralizado-horizontal {
     max-width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
